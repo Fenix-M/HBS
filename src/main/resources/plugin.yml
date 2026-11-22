@@ -1,0 +1,21 @@
+name: HumanBodySimulator
+version: '${version}'
+main: ru.hbs.HumanBodySimulator
+api-version: '1.21.11'
+description: Modular human body simulation framework for Paper 1.21.11
+authors: [HBS Development]
+commands:
+  hbs:
+    description: Human Body Simulator commands
+    usage: /hbs <status|inspect|reload>
+    permission: hbs.player
+permissions:
+  hbs.player:
+    description: View your own body status
+    default: true
+  hbs.medic:
+    description: Inspect other players
+    default: op
+  hbs.admin:
+    description: Manage Human Body Simulator
+    default: op

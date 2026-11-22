@@ -1,0 +1,9 @@
+storage:
+  type: sqlite
+  file: hbs.db
+resource-pack:
+  required: true
+  url: ""
+  sha1: ""
+simulation:
+  enabled: true
